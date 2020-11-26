@@ -26,10 +26,10 @@ program linearEquations
 
   delta_x = pointX1 - pointX2
   delta_y = pointY1 - pointY2
-  gradient = delta_x / delta_y
+  gradient = delta_y / delta_x  
 
-  WRITE(*,*) "Delta x = ", delta_x
   WRITE(*,*) "Delta y = ", delta_y
+  WRITE(*,*) "Delta x = ", delta_x
   WRITE(*,*) "The Gradient of the line is : ", gradient
-  
+
 end program linearEquations
