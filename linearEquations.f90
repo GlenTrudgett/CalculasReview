@@ -24,9 +24,9 @@ program linearEquations
   WRITE(*,*) "Point A is A(", pointX1, ", ", pointY1 , ") "
   WRITE(*,*) "Point B is B(", pointX2, ", ", pointY2 , ") "
 
-  delta_x = pointX1 - pointX2
-  delta_y = pointY1 - pointY2
-  gradient = delta_y / delta_x  
+  delta_x = pointX2 - pointX1
+  delta_y = pointY2 - pointY1
+  gradient = delta_y / delta_x
 
   WRITE(*,*) "Delta y = ", delta_y
   WRITE(*,*) "Delta x = ", delta_x
